@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/img/bg.jpg");
+    background-position: center center;
+    background-size: max(1662px, 100vw);
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+}
+
+.main .box {
+    height: 900px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.hero> :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero> :nth-child(3) {
+    font-family: 'Poppins' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.separation {
+    height: 6px;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    z-index: 20;
+    margin-top: -7px;
+}
+
+.btn-eng {
+    padding: 6px 36px 6px 34px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.501);
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.btn-SI {
+    padding: 7px 22px 7px 22px;
+    border: 0px solid white;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-SI:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn-SI:active {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.btn-EA {
+    padding: 20px 250px 20px 30px;
+    font-size: 20px;
+    margin-right: 8px;
+    font-weight: 500;
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    border: 0.5px solid rgba(255, 255, 255, 0.368);
+    border-radius: 6px;
+    opacity: 0.7;
+    transition: 0.1s;
+
+}
+
+.btn-GS {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 50px 15px 50px;
+    font-size: 28px;
+    color: #fff;
+    background-color: red;
+    border: 0px;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.btn-GS:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn-GS:active {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+main .logo {
+    height: 200px;
+    width: 200px;
+}
+
+.first {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 48vh;
+}
+
+.first > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :nth-child(1) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first > div :nth-child(2) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-size: 24px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
